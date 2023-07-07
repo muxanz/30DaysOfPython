@@ -73,6 +73,10 @@ print(int(9.8) == 10)
 # print(f"Your weekly earning si {hours * rate}")
 
 #22
-years = int(input("Enter number of years you have lived: "))
-seconds_per_year = 31536000
-print(f"You have lived for {years * seconds_per_year} seconds.")
+# years = int(input("Enter number of years you have lived: "))
+# seconds_per_year = 31536000
+# print(f"You have lived for {years * seconds_per_year} seconds.")
+
+#23
+for i in range(1, 6):
+    print(i, 1, i, i**2, i**3 )
